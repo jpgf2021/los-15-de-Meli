@@ -3,11 +3,12 @@
         :root {
             /* Paleta Pastel Moderna */
             --primary-color: #122954; /* LightPink -Principal */
+
             --secondary-color: #374f7a; /* PowderBlue - Menta/Azul Pastel */
             --accent-color: #122954; /* Custom Lila/Lavanda Suave */
             --text-color: #585060; /* Gris Oscuro Púrpura Sutil */
             --text-color-hero: #ad833c; /* Blanco para texto sobre imagen de hero */
-            --bg-light: #FAF7F5; /* Blanco Hueso / Crema muy claro */
+            --bg-light: #f6f7ec; /* Blanco Hueso / Crema muy claro */
             --bg-highlight: #ffffff; /* Blanco puro para secciones destacadas */
             --border-color: #EAE0E0; /* Gris Rosado muy claro para bordes */
             --shadow-light: 0 4px 15px rgba(0,0,0,0.06);
@@ -30,14 +31,14 @@
             font-family: var(--font-body);
             color: var(--text-color);
             line-height: 1.7;
-            background-color: var(--bg-light);
+            background-color: var(--accent-color);
             overflow-x: hidden;
             scroll-behavior: smooth;
         }
 
         h1, h2, h3 {
             font-family: var(--font-display);
-            color: var(--primary-color); /* Color principal para títulos */
+            color: var(--text-color-hero); /* Color principal para títulos */
             margin-bottom: 1rem;
             font-weight: 700;
         }
@@ -160,7 +161,7 @@
         /* Countdown Section */
         #countdown h2 {
             font-size: 2.4rem;
-            color: var(--secondary-color);
+            color: var(--text-color-hero);
             margin-bottom: 30px;
         }
         #timer {
@@ -211,7 +212,8 @@
             margin: 0 auto;
         }
         .detail-item {
-            background: var(--bg-highlight);
+           
+            background-color: var(--bg-highlight);
             padding: 30px;
             border-radius: 12px;
             box-shadow: var(--shadow-light);
@@ -296,7 +298,7 @@
         .btn {
             display: inline-block;
             background-color: var(--primary-color);
-            color: var(--text-color-hero);
+            color: #e8c924;
             padding: 12px 28px;
             text-decoration: none;
             border-radius: 30px;
@@ -407,11 +409,11 @@
 
         /* Footer */
         footer {
-            background-color:var(--primary-color); 
-            color: var(--text-color);
+            /*background-color:var(--primary-color);*/
+            background-color: var(--text-color-hero); 
+            color: var(--primary-color);
             text-align: center;
             padding: 35px 20px;
-            border-top: 1px solid var(--border-color);
         }
         footer p {
             margin-bottom: 0.6rem;
@@ -421,13 +423,13 @@
             font-family: var(--font-body);
             font-weight: 600;
             font-size: 1.1rem;
-            color:  #ad833c;
+            color:  var(--primary-color);
             margin-bottom: 0.8rem;
             letter-spacing: 0.5px;
         }
         footer p:last-child {
             font-size: 0.8rem;
-            color: #ad833c;
+            color:var(--primary-color);
             
         }
 
@@ -532,8 +534,8 @@
             bottom: 25px;
             right: 25px;
             z-index: 999;
-            background-color: var(--primary-color);
-            color: var(--text-color-hero);
+            background-color: var(--text-color-hero);
+            color: var(--primary-color);
             border: none;
             outline: none;
             width: 50px;
