@@ -21,7 +21,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             
             // --- Configuración de la Cuenta Regresiva ---
-            const partyDate = new Date("feb 21, 2026 21:00:00").getTime(); 
+            const partyDate = new Date("feb 21, 2026 20:00:00").getTime(); 
 
             const countdownFunction = setInterval(() => {
                 const now = new Date().getTime();
@@ -147,7 +147,7 @@
 
         // --- Replace Alert Functions ---
         function mensajeAgendar() {
-            showModal(`¡Qué bien que quieras agendarlo! <br><strong>21 de Febrero, 2026 a las 21:00 hs</strong>. <br><br> ¡Asegúrate de marcarlo en tu calendario! <br> <a title="Add to Calendar" style="color:#ad833c; class="addeventatc mi-btn" data-id="yh27071423" href="https://www.addevent.com/event/z3nhpk4v273x" target="_blank">Agendar</a>`);
+            showModal(`¡Qué bien que quieras agendarlo! <br><strong>21 de Febrero, 2026 a las 20:00 hs</strong>. <br><br> ¡Asegúrate de marcarlo en tu calendario! <br> <a title="Add to Calendar" style="color:#ad833c; class="addeventatc mi-btn" data-id="yh27071423" href="https://www.addevent.com/event/z3nhpk4v273x" target="_blank">Agendar</a>`);
            
         }
         
