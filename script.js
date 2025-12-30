@@ -156,9 +156,8 @@
             ¡Tu presencia es mi mayor regalo!<br><br>
             Si de todas formas querés tener un detalle, podés hacerlo por estos medios:<br><br>
 
-            <strong>Meli</strong><br>
-            <strong>Cuenta:</strong> <br>
-            <strong>Cédula:</strong><br><br>
+            <strong>Cuenta Corriente Banco Itau: USD 0695673 </strong> <br>
+            <strong>Rodrigo de Oliveira Rodrigues da Silva</strong><br><br>
 
             ¡Muchas gracias por tu cariño!
         `);
@@ -166,7 +165,7 @@
 
 
       function mensajeAsistencia() {
-            const formularioURL = "#";
+            const formularioURL = "https://forms.gle/ktjR6f5h7qWZdExQA";
 
             showModal(`¡Me encantaría que vinieras! Por favor, haz clic para confirmar tu asistencia antes del <strong>${PARTY_DATE_LIMIT}</strong>.<br><br>
             <a href='${formularioURL}' target='_blank' class='btn btn-primary'>Confirmar asistencia</a>`);
